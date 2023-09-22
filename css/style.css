@@ -1,0 +1,332 @@
+h1{
+    color: red;
+}
+
+.navo{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: #f8f9fa;
+}
+/*Footer with waves*/
+
+body{
+    background:rgb(75, 73, 73);
+  }
+  .footer {
+    position: relative;
+    background: #05b3a4;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:35%;
+  }
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  .menu__link:hover{
+      color: white;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.imgur.com/ZAts69f.png");
+    background-size: 1000px 100px;
+  }
+  
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+  }
+  
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+  }
+  
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  .tempinformation{
+    width: 40rem;
+    margin: auto;
+    min-height: 20rem;
+    background-color: #323544;
+    border-radius: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .top_layer{
+    width: 100%;
+    height: 20%;
+    background-color: #2d303d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+  }
+  .top_layer p{
+    color: #fff;
+    font-weight: 400;
+    padding: 0.4rem 3rem;
+  }
+  .main_layer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .main_layer #city_name{
+    padding: 2rem 0;
+    color: #bfc1c8;
+    font-weight: 300;
+    font-size: 2rem;
+  }
+  .main_layer .middle_layer{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+  }
+  .main_layer .middle_layer p,
+  .main_layer .middle_layer .fa{
+      font-size: 5rem;
+      font-weight: 900;
+   }
+  .fa{
+    color: #72b8d4;
+  }
+  sup{
+    font-size: 6rem;
+    margin-top: -2rem;
+  }
+  /* .data_hide{
+    visibility: hidden;
+    transition: all 0.3s linear;
+  } */
+  .main_content{
+    margin: auto;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 2%;
+    size: 200%;
+  }
+  /* #cityName{
+    width: 40rem;
+  } */
+  /* .temp_form{
+    width: 60%;
+    position: relative;
+    margin: 3rem auto; 
+  }
+  .temp_form input[type="text"]{
+    width: 100%;
+    padding: 2rem 5rem 2rem 2rem;
+    background: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 3rem;
+  }
+  ::placeholder{
+    color: white;
+  }
+  .temp_form input[type="submit"]{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 0 3rem;
+    border-radius: 3rem;
+    color: white;
+    font-size: 1.6rem;
+  }
+  .temp_form input[type="submit"]:hover{
+    color: #009ad8;
+    background: #fff;
+  } */
+
+  /* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar :hover{
+    width: 10px;
+  } 
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(75, 73, 73);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(75, 73, 73);
+    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #66ffff; 
+    height: 50%;
+  }
+  .navbar li{
+    margin-left: 2rem;
+  }
+  .navbar a :hover{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: black;
+      font: 600;
+  }
+  .main_header_left{
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer{
+    padding-bottom: 0px;
+    margin-top: 12%;
+    margin-bottom: 0px;
+  }
+/* CSS */
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #66ffff;
+  box-shadow: #05b3a4 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .main_header_left{
+    height: auto;
+    margin: 5rem 0rem;
+  }
+  .main_header_right{
+    height: auto;
+    margin: 2rem;
+    margin-bottom: 10%;
+  }
+}
+
